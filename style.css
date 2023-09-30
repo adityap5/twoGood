@@ -17,8 +17,29 @@ body {
     position: relative;
 
 }
+.nav{
+    display: flex;
+    width: 100%;
+    height: 14vh;
+    /* background-color:forestgreen; */
+}
+.navh2{
+    display: flex;
+    font-family: helvetica;
+    text-transform: uppercase;
+    gap: 140px;
+
+}
+.nav img{
+    margin-top: 22px;
+    height: 84px; 
+}
 h1{
-    font-size: 200px;
+    text-align: center;
+    font-size: 31vh;
     font-family: futura;
     text-transform: uppercase;
+    line-height: 27vh;
+    margin-top: 16vh;
+    font-weight: 900;
 }
