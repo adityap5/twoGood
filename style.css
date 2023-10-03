@@ -18,11 +18,12 @@ body {
 
 }
 .nav{
+    margin-top: -228px;
+    position: fixed;
     display: flex;
     width: 100%;
     height: 14vh;
     justify-content: space-between;
-    background-color:forestgreen;
 }
 .navh{
     margin-top: 28px;
@@ -32,15 +33,20 @@ body {
     text-transform: uppercase;
     gap: 67px;
     font-weight: 200;
+    cursor: pointer;
+color :#7B7B7B;
 }
 .navh .navhimgg{
     margin-right: 42px;
     margin-top: -6px;
     height: 31px;
+    cursor: pointer;
 }
 .nav img{
     margin-top: 22px;
     height: 84px; 
+    cursor: pointer;
+
 }
 h1{
     text-align: center;
@@ -48,7 +54,7 @@ h1{
     font-family: futura;
     text-transform: uppercase;
     line-height: 29vh;
-    margin-top: 16vh;
+    margin-top: 226px;
     font-weight: 900;
     letter-spacing: -14px;
 }
