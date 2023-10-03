@@ -72,5 +72,12 @@ h1{
     position: absolute;
     bottom:550px;
     left: 911px;
-    border
+}
+.image .underline{
+    width: 96%;
+    height: 1px;
+    background-color: #7B7B7B;
+    bottom: 20px;
+    position: absolute;
+    margin-left: 30px;
 }
