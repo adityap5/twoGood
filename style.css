@@ -63,3 +63,13 @@ h1{
  height: 1000px;
     
 }
+.image .round{
+    height: 200px;
+    width: 200px;
+    background-color:transparent;
+    border-radius: 300px;
+    border: 1px solid black;
+    position: absolute;
+    bottom:550px;
+    left: 911px;
+}
