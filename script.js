@@ -14,3 +14,17 @@ tl.from("h1",{
    opacity:0,
    stagger:0.2
 })
+// tl.from(".image .round",{
+//     rotate:360,
+
+// })
+let tween = gsap.fromTo(".image .round",{
+    rotation: 0
+  },{
+    rotation: 360,
+    duration: 1,
+    repeat: -1,
+    ease: "linear"
+  })
+
+gsap.fromTo(tween, {timeScale: 3}, {timeScale: 1, duration: 1})

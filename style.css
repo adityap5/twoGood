@@ -36,11 +36,15 @@ body {
     cursor: pointer;
 color :#7B7B7B;
 }
+.navh :hover{
+    color :#2e2e2e;
+}
 .navh .navhimgg{
     margin-right: 42px;
     margin-top: -6px;
     height: 31px;
     cursor: pointer;
+    
 }
 .nav img{
     margin-top: 22px;
@@ -69,6 +73,7 @@ h1{
     background-color:transparent;
     border-radius: 300px;
     border: 1px solid black;
+    border-style:dashed;
     position: absolute;
     bottom:550px;
     left: 911px;
